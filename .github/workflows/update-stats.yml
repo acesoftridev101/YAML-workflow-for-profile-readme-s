@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.PROFILE_STATS_TOKEN }}
           card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&count_private=true&theme=tokyonight"
+          options: "username=${{ github.repository_owner }}&show_icons=true&count_private=true&theme=catppuccin_mocha"
           path: stats.svg
 
       - name: Generate Top Languages Card
